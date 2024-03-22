@@ -1,0 +1,12 @@
+.idea/
+*.iml
+node_modules
+yarn-error.log
+*.pyc
+*__pycache__
+.terraform
+.env
+*.tfstate
+*.tfstate.backup
+*.hcl
+.DS_Store

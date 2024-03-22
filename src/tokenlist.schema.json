@@ -1,0 +1,140 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://raw.githubusercontent.com/avnu-labs/starknet-token-list/src/tokenlist.schema.json",
+  "title": "Starknet Token List",
+  "description": "Schema for lists of starknet tokens",
+  "definitions": {
+    "TagIdentifier": {
+      "type": "string",
+      "description": "The identifier of a tag",
+      "minLength": 1,
+      "maxLength": 10,
+      "pattern": "^[\\w]+$",
+      "examples": [
+        "unruggable",
+        "compound",
+        "stablecoin"
+      ]
+    },
+    "TokenInfo": {
+      "type": "object",
+      "description": "Metadata for a single token in a token list",
+      "additionalProperties": false,
+      "properties": {
+        "address": {
+          "type": "string",
+          "description": "The address of the token",
+          "pattern": "^0x[a-fA-F0-9]{64}$",
+          "examples": [
+            "0x04718f5a0fc34cc1af16a1cdee98ffb20c31f5cd61d6ab07201858f4287c938d"
+          ]
+        },
+        "decimals": {
+          "type": "integer",
+          "description": "The number of decimals for the token",
+          "minimum": 0,
+          "maximum": 255,
+          "examples": [
+            18
+          ]
+        },
+        "name": {
+          "type": "string",
+          "description": "The name of the token",
+          "minLength": 0,
+          "maxLength": 40,
+          "anyOf": [
+            {
+              "const": ""
+            },
+            {
+              "pattern": "^[ \\S+]+$"
+            }
+          ],
+          "examples": [
+            "Starknet Token"
+          ]
+        },
+        "symbol": {
+          "type": "string",
+          "description": "The symbol for the token",
+          "minLength": 0,
+          "maxLength": 20,
+          "anyOf": [
+            {
+              "const": ""
+            },
+            {
+              "pattern": "^\\S+$"
+            }
+          ],
+          "examples": [
+            "STRK"
+          ]
+        },
+        "logoUri": {
+          "type": "string",
+          "description": "A URI to the token logo asset; if not set, interface will attempt to find a logo based on the token address; suggest SVG or PNG of size 64x64",
+          "format": "uri",
+          "examples": [
+            "ipfs://QmXfzKRvjZz3u5JRgC4v5mGVbm9ahrUiB4DgzHBsnWbTMM"
+          ]
+        },
+        "tags": {
+          "type": "array",
+          "description": "An array of tag identifiers associated with the token; tags are defined at the list level",
+          "items": {
+            "$ref": "#/definitions/TagIdentifier"
+          },
+          "maxItems": 10,
+          "examples": [
+            "stablecoin",
+            "unruggable"
+          ]
+        }
+      },
+      "required": [
+        "address",
+        "decimals",
+        "name",
+        "symbol",
+        "logoUri"
+      ]
+    }
+  },
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "The name of the token list",
+      "minLength": 1,
+      "maxLength": 30,
+      "pattern": "^[\\w ]+$",
+      "examples": [
+        "My Token List"
+      ]
+    },
+    "logoUri": {
+      "type": "string",
+      "description": "A URI for the logo of the token list; prefer SVG or PNG of size 256x256",
+      "format": "uri",
+      "examples": [
+        "ipfs://QmXfzKRvjZz3u5JRgC4v5mGVbm9ahrUiB4DgzHBsnWbTMM"
+      ]
+    },
+    "tokens": {
+      "type": "array",
+      "description": "The list of tokens included in the list",
+      "items": {
+        "$ref": "#/definitions/TokenInfo"
+      },
+      "minItems": 1,
+      "maxItems": 10000
+    }
+  },
+  "required": [
+    "name",
+    "logoUri",
+    "tokens"
+  ]
+}
