@@ -1,0 +1,37 @@
+{
+  "name": "@avnu/starknet-token-list",
+  "author": {
+    "name": "AVNU",
+    "url": "https://avnu.fi"
+  },
+  "description": "📚 The Starknet Community Token List",
+  "version": "0.0.1",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "keywords": [
+    "starknet",
+    "avnu",
+    "token",
+    "list"
+  ],
+  "repository": {
+    "url": "https://github.com/avnu-labs/starknet-token-lists",
+    "type": "git"
+  },
+  "scripts": {
+    "test": "tsdx test"
+  },
+  "devDependencies": {
+    "ajv": "8.12.0",
+    "ajv-formats": "2.1.1",
+    "tsdx": "0.14.1",
+    "tslib": "2.6.2",
+    "typescript": "5.4.3"
+  },
+  "prettier": {
+    "printWidth": 80,
+    "semi": true,
+    "singleQuote": true,
+    "trailingComma": "es5"
+  }
+}

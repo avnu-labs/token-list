@@ -1,0 +1,131 @@
+{
+  "name": "Starknet Token List",
+  "logoUri": "https://assets.coingecko.com/coins/images/26433/standard/starknet.png",
+  "tokens": [
+    {
+      "name": "Akamaru",
+      "address": "0x0137dfca7d96cdd526d13a63176454f35c691f55837497448fad352643cfe4d4",
+      "symbol": "AKU",
+      "decimals": 18,
+      "logoUri": "https://dv3jj1unlp2jl.cloudfront.net/128/color/aku.png"
+    },
+    {
+      "name": "Dai Stablecoin",
+      "address": "0x05574eb6b8789a91466f902c380d978e472db68170ff82a5b650b95a58ddf4ad",
+      "symbol": "DAI",
+      "decimals": 18,
+      "logoUri": "https://assets.coingecko.com/coins/images/9956/standard/Badge_Dai.png",
+      "tags": ["stablecoin"]
+    },
+    {
+      "name": "Dai Stablecoin v0",
+      "address": "0x00da114221cb83fa859dbdb4c44beeaa0bb37c7537ad5ae66fe5e0efd20e6eb3",
+      "symbol": "DAIv0",
+      "decimals": 18,
+      "logoUri": "https://assets.coingecko.com/coins/images/9956/standard/Badge_Dai.png",
+      "tags": ["stablecoin"]
+    },
+    {
+      "name": "Ether",
+      "address": "0x049d36570d4e46f48e99674bd3fcc84644ddd6b96f7c741b1562b82f9e004dc7",
+      "symbol": "ETH",
+      "decimals": 18,
+      "logoUri": "https://assets.coingecko.com/coins/images/279/standard/ethereum.png"
+    },
+    {
+      "name": "Lords",
+      "address": "0x0124aeb495b947201f5fac96fd1138e326ad86195b98df6dec9009158a533b49",
+      "symbol": "LORDS",
+      "decimals": 18,
+      "logoUri": "https://assets.coingecko.com/coins/images/22171/standard/Frame_1.png"
+    },
+    {
+      "name": "LUSD Stablecoin",
+      "address": "0x070a76fd48ca0ef910631754d77dd822147fe98a569b826ec85e3c33fde586ac",
+      "symbol": "LUSD",
+      "decimals": 18,
+      "logoUri": "https://assets.coingecko.com/coins/images/14666/standard/Group_3.png",
+      "tags": ["stablecoin"]
+    },
+    {
+      "name": "OWL",
+      "address": "0x039877a272619050ab8b0e3e0a19b58d076fc2ce84da1dc73b699590e629f2b8",
+      "symbol": "OWL",
+      "decimals": 18,
+      "logoUri": "https://dv3jj1unlp2jl.cloudfront.net/128/color/owl.png"
+    },
+    {
+      "name": "Pain au lait",
+      "address": "0x049201f03a0f0a9e70e28dcd74cbf44931174dbe3cc4b2ff488898339959e559",
+      "symbol": "PAL",
+      "decimals": 18,
+      "logoUri": "https://dv3jj1unlp2jl.cloudfront.net/128/color/pal.png",
+      "tags": ["unruggable"]
+    },
+    {
+      "name": "Rocket Pool ETH",
+      "address": "0x0319111a5037cbec2b3e638cc34a3474e2d2608299f3e62866e9cc683208c610",
+      "symbol": "rETH",
+      "decimals": 18,
+      "logoUri": "https://assets.coingecko.com/coins/images/20764/standard/reth.png"
+    },
+    {
+      "name":"StarkPepe",
+      "address": "0x01e0eee22c684fdf32babdd65e6bcca62a8ce2c23c8d5e68f3989595d26e1b4a",
+      "symbol": "SPEPE",
+      "decimals": 18,
+      "logoUri": "https://dv3jj1unlp2jl.cloudfront.net/128/color/pepe.png"
+    },
+    {
+      "name": "Uniswap",
+      "address": "0x049210ffc442172463f3177147c1aeaa36c51d152c1b0630f2364c300d4f48ee",
+      "symbol": "UNI",
+      "decimals": 18,
+      "logoUri": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984/logo.png"
+    },
+    {
+      "name": "USD Coin",
+      "address": "0x053c91253bc9682c04929ca02ed00b3e423f6710d2ee7e0d5ebb06f3ecf368a8",
+      "symbol": "USDC",
+      "decimals": 6,
+      "logoUri": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png",
+      "tags": ["stablecoin"]
+    },
+    {
+      "name": "Tether USD",
+      "address": "0x068f5c6a61780768455de69077e07e89787839bf8166decfbf92b645209c0fb8",
+      "symbol": "USDT",
+      "decimals": 6,
+      "logoUri": "https://assets.coingecko.com/coins/images/325/standard/Tether.png",
+      "tags": ["stablecoin"]
+    },
+    {
+      "name": "Starknet Voting Token",
+      "address": "0x0782f0ddca11d9950bc3220e35ac82cf868778edb67a5e58b39838544bc4cd0f",
+      "symbol": "vSTRK",
+      "decimals": 18,
+      "logoUri": "https://dv3jj1unlp2jl.cloudfront.net/128/color/vstrk.png"
+    },
+    {
+      "name": "Wrapped BTC",
+      "address": "0x03fe2b97c1fd336e750087d68b9b867997fd64a2661ff3ca5a7c771641e8e7ac",
+      "symbol": "WBTC",
+      "decimals": 8,
+      "logoUri": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599/logo.png"
+    },
+    {
+      "name": "Starknet Wrapped Staked Ether",
+      "address": "0x042b8f0484674ca266ac5d08e4ac6a3fe65bd3129795def2dca5c34ecc5f96d2",
+      "symbol": "wstETH",
+      "decimals": 18,
+      "logoUri": "https://static.starkscan.co/tokens/0x042b8f0484674ca266ac5d08e4ac6a3fe65bd3129795def2dca5c34ecc5f96d2/icons/QmaxTVxd6ZWrotuG64LiuL8PCEgwjiHiQF9isCu8QKgneP"
+    },
+    {
+      "name": "zkLend Token",
+      "address": "0x00585c32b625999e6e5e78645ff8df7a9001cf5cf3eb6b80ccdd16cb64bd3a34",
+      "symbol": "ZEND",
+      "decimals": 18,
+      "logoUri": "https://zklend.gitbook.io/~gitbook/image?url=https:%2F%2F4162751440-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FFPvHrlMhUpyXVmLfOKVy%252Fuploads%252FQyZucIilvlC0irpiNJrd%252FzkLend_icon.png%3Falt=media%26token=a6a02b08-1152-4935-b3d3-84c90fd9a558&width=768&dpr=1&quality=100&sign=54d85166f4cf2ad8d2c0e1788e2ef10b63cd86b0e3214e568bf168fa73cdf0fb"
+    }
+  ]
+}
