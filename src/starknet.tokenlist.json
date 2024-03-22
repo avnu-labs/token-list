@@ -77,6 +77,13 @@
       "logoUri": "https://dv3jj1unlp2jl.cloudfront.net/128/color/pepe.png"
     },
     {
+      "name": "Starknet Token",
+      "address": "0x04718f5a0fc34cc1af16a1cdee98ffb20c31f5cd61d6ab07201858f4287c938d",
+      "symbol": "STRK",
+      "decimals": 18,
+      "logoUri": "https://assets.coingecko.com/coins/images/26433/standard/starknet.png"
+    },
+    {
       "name": "Uniswap",
       "address": "0x049210ffc442172463f3177147c1aeaa36c51d152c1b0630f2364c300d4f48ee",
       "symbol": "UNI",
