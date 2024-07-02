@@ -11,6 +11,7 @@ describe('Starknet token list', () => {
   it('should validate with success', () => {
     // When
     const result = validator(starknetTokenList)
+    validator.errors && console.log(validator.errors)
 
     // Then
     expect(result).toBe(true)

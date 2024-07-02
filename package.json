@@ -15,7 +15,7 @@
     "list"
   ],
   "repository": {
-    "url": "https://github.com/avnu-labs/starknet-token-lists",
+    "url": "https://github.com/avnu-labs/token-lists",
     "type": "git"
   },
   "scripts": {

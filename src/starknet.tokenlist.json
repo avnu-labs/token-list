@@ -3,6 +3,13 @@
   "logoUri": "https://assets.coingecko.com/coins/images/26433/standard/starknet.png",
   "tokens": [
     {
+      "name": "ONLY EIGHT USERS",
+      "address": "0x00e33356072418951fdf3312e3e2eef99abf6d7e12df6ff956082d3e178dde2a",
+      "symbol": "8",
+      "decimals": 18,
+      "logoUri": "https://i.ibb.co/L6pwNzw/IMG-2587.jpg"
+    },
+    {
       "name": "Akamaru",
       "address": "0x0137dfca7d96cdd526d13a63176454f35c691f55837497448fad352643cfe4d4",
       "symbol": "AKU",
@@ -15,7 +22,9 @@
       "symbol": "DAI",
       "decimals": 18,
       "logoUri": "https://assets.coingecko.com/coins/images/9956/standard/Badge_Dai.png",
-      "tags": ["stablecoin"]
+      "tags": [
+        "stablecoin"
+      ]
     },
     {
       "name": "Dai Stablecoin v0",
@@ -23,7 +32,16 @@
       "symbol": "DAIv0",
       "decimals": 18,
       "logoUri": "https://assets.coingecko.com/coins/images/9956/standard/Badge_Dai.png",
-      "tags": ["stablecoin"]
+      "tags": [
+        "stablecoin"
+      ]
+    },
+    {
+      "name": "Ekubo Protocol",
+      "address": "0x075afe6402ad5a5c20dd25e10ec3b3986acaa647b77e4ae24b0cbc9a54a27a87",
+      "symbol": "EKUBO",
+      "decimals": 18,
+      "logoUri": "https://app.ekubo.org/logo.svg"
     },
     {
       "name": "Ether",
@@ -45,7 +63,16 @@
       "symbol": "LUSD",
       "decimals": 18,
       "logoUri": "https://assets.coingecko.com/coins/images/14666/standard/Group_3.png",
-      "tags": ["stablecoin"]
+      "tags": [
+        "stablecoin"
+      ]
+    },
+    {
+      "name": "Nostra",
+      "address": "0x00c530f2c0aa4c16a0806365b0898499fba372e5df7a7172dc6fe9ba777e8007",
+      "symbol": "NSTR",
+      "decimals": 18,
+      "logoUri": "https://assets.coingecko.com/coins/images/28282/small/Nostra_200x200.png"
     },
     {
       "name": "OWL",
@@ -60,7 +87,9 @@
       "symbol": "PAL",
       "decimals": 18,
       "logoUri": "https://dv3jj1unlp2jl.cloudfront.net/128/color/pal.png",
-      "tags": ["unruggable"]
+      "tags": [
+        "unruggable"
+      ]
     },
     {
       "name": "Rocket Pool ETH",
@@ -70,7 +99,7 @@
       "logoUri": "https://assets.coingecko.com/coins/images/20764/standard/reth.png"
     },
     {
-      "name":"StarkPepe",
+      "name": "StarkPepe",
       "address": "0x01e0eee22c684fdf32babdd65e6bcca62a8ce2c23c8d5e68f3989595d26e1b4a",
       "symbol": "SPEPE",
       "decimals": 18,
@@ -82,6 +111,13 @@
       "symbol": "STRK",
       "decimals": 18,
       "logoUri": "https://assets.coingecko.com/coins/images/26433/standard/starknet.png"
+    },
+    {
+      "name": "Standard Weighted Adalian Yield",
+      "address": "0x004878d1148318a31829523ee9c6a5ee563af6cd87f90a30809e5b0d27db8a9b",
+      "symbol": "SWAY",
+      "decimals": 6,
+      "logoUri": "https://etherscan.io/token/images/influencesway_32.png"
     },
     {
       "name": "Uniswap",
@@ -96,7 +132,9 @@
       "symbol": "USDC",
       "decimals": 6,
       "logoUri": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png",
-      "tags": ["stablecoin"]
+      "tags": [
+        "stablecoin"
+      ]
     },
     {
       "name": "Tether USD",
@@ -104,7 +142,9 @@
       "symbol": "USDT",
       "decimals": 6,
       "logoUri": "https://assets.coingecko.com/coins/images/325/standard/Tether.png",
-      "tags": ["stablecoin"]
+      "tags": [
+        "stablecoin"
+      ]
     },
     {
       "name": "Starknet Voting Token",

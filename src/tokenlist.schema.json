@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://raw.githubusercontent.com/avnu-labs/starknet-token-list/src/tokenlist.schema.json",
+  "$id": "https://raw.githubusercontent.com/avnu-labs/token-list/src/tokenlist.schema.json",
   "title": "Starknet Token List",
   "description": "Schema for lists of starknet tokens",
   "definitions": {
