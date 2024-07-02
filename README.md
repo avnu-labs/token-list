@@ -6,12 +6,12 @@ The validated token list presented here is built up with the Starknet community.
 Our guiding design principles include: Safety, Accessibility, Neutrality, Collaboration, and Community Engagement.
 
 The lists are available here:
-- Mainnet: https://raw.githubusercontent.com/avnu-labs/starknet-token-list/main/src/starknet.tokenlist.json
-- Sepolia: https://raw.githubusercontent.com/avnu-labs/starknet-token-list/main/src/sepolia.tokenlist.json
+- Mainnet: https://raw.githubusercontent.com/avnu-labs/token-list/main/src/starknet.tokenlist.json
+- Sepolia: https://raw.githubusercontent.com/avnu-labs/token-list/main/src/sepolia.tokenlist.json
 
 ## Adding a token
 
-To add a token please create a PR containing the token information. Here is an [example](https://github.com/avnu-labs/starknet-token-list/pull/2).
+To add a token please create a PR containing the token information. Here is an [example](https://github.com/avnu-labs/token-list/pull/2).
 
 A token should include `name`, `symbol`, `address`, `decimals` and `logoURI` attributes.
 
