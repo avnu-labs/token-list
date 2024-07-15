@@ -22,7 +22,7 @@
     "test": "tsdx test"
   },
   "devDependencies": {
-    "ajv": "8.16.0",
+    "ajv": "8.17.1",
     "ajv-formats": "2.1.1",
     "tsdx": "0.14.1",
     "tslib": "2.6.2",
